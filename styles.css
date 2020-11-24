@@ -1,0 +1,179 @@
+html {
+			background: url("images/BackGround.jpg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+.knockout {
+  background: white -80px -80px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Texturina', serif;
+  width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+#head{
+	opacity: 0.66;
+	transition: opacity 0.5s;
+}
+
+#leftbox1{
+	width: 10%;
+	position: absolute;
+	top:65%;
+	left: 5%;
+	transition: width 0.5s, opacity 0.5s;
+
+}
+.imges{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+  	overflow: hidden;
+  	z-index: 1;
+}
+.text-box{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	text-shadow: #2e3033;
+
+}
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+#leftbox2
+{
+	width: 10%;
+	position: absolute;
+	top:55%;
+	left: 20%;
+	transition: width 0.5s;
+}
+
+#videoHolder
+{
+	width: 30%;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	transition: width 0.5s, top 0.5s, left 0.5s, opacity 0.5s;
+
+}
+.box1 {
+
+	width: 100%;
+	height: auto;
+  	border-radius: 10px;
+  	overflow: hidden;
+  	z-index: 1;
+}
+
+
+#rightbox1{
+	width: 10%;
+	position: absolute;
+	top:55%;
+	right: 20%;
+	transition: width 0.5s;
+
+}
+#rightbox2{
+	width: 10%;
+	position: absolute;
+	top:65%;
+	right: 5%;
+	transition: width 0.5s, opacity 0.5s;
+}
+
+.boxes
+{
+	transition: opacity 0.5s;
+}
+.boxes:hover .overlay
+{
+	bottom: -30px;
+	height: 20%;
+}
+
+.text {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+	font-family: 'Texturina', serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+#paperholder
+{
+	width: 30%;
+	position: absolute;
+	/*top: 25%;*/
+	left: 25%;
+	height: 300px;
+	transition: width 0.5s, top 0.5s, left 0.5s, opacity 0.5s;
+
+}
+
+.knockout2 {
+  background: white -80px -80px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Texturina', serif;
+  width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#videoHolder2
+{
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transition: width 0.5s, top 0.5s, left 0.5s, opacity 0.5s;
+
+}
+
+.knockout3 {
+  background: white -80px -80px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Texturina', serif;
+  width: 700px;
+  right: 10%;
+  text-align: center;
+}
